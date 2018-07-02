@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Layout" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="IndividualLocationDetails" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingLeft">@dimen/list_item_margin</item>
+        <item name="android:paddingRight">@dimen/list_item_margin</item>
+    </style>
+
+    <style name="IndividualLocationDescriptionFont" parent="IndividualLocationDetails">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+</resources>
+

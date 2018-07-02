@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">70dp</dimen>
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="layout_height">44dp</dimen>
+
+    <dimen name="title_textsize">20sp</dimen>
+    <dimen name="very_small_textsize">14sp</dimen>
+    <dimen name="small_textsize">18sp</dimen>
+    <dimen name="middle_textsize">20sp</dimen>
+    <dimen name="big_textsize">25sp</dimen>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006064</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for whole app -->
+    <color name="color_background">#FF9800</color>
+
+    <color name="color_tabs">#00695C</color>
+    <color name="color_image_background">#FF9800</color>
+
+    <color name="fragment_chill">#FFC107</color>
+    <color name="fragment_libraries">#FFCC80</color>
+    <color name="fragment_castles">#FFDF80</color>
+    <color name="fragment_eateries">#F2FF80</color>
+
+</resources>

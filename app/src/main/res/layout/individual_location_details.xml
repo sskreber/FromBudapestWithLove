@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/individual_location_container"
+    style="@style/Layout"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/color_background"
+    android:minHeight="@dimen/list_item_height">
+
+    <TextView
+        android:id="@+id/location_name"
+        style="@style/IndividualLocationDetails"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        tools:text="location name" />
+
+    <TextView
+        android:id="@+id/location_address"
+        style="@style/IndividualLocationDetails"
+        android:layout_below="@id/location_name"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textStyle="italic"
+        tools:text="location address" />
+
+    <ImageView
+        android:id="@+id/location_image"
+        style="@style/IndividualLocationDetails"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location_address" />
+
+    <TextView
+        android:id="@+id/location_description"
+        style="@style/IndividualLocationDescriptionFont"
+        android:layout_below="@id/location_image"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:text="location rather long description" />
+
+</RelativeLayout>
+

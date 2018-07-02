@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">FromBudapestWithLove</string>
+
+    <string name="name">text</string>
+
+    <!-- Chill fragment -->
+
+    <!-- Chill fragment location names -->
+    <string name="chill_fragment_loc_name01">Lukacs Thermal Bath</string>
+    <string name="chill_fragment_loc_name02">Gellert Thermal Baths </string>
+    <string name="chill_fragment_loc_name03">Szechenyi Medicinal Bath</string>
+    <string name="chill_fragment_loc_name04">Capital Circus of Budapest</string>
+    <string name="chill_fragment_loc_name05">Budapest Zoo &amp; Botanical Garden
+</string>
+    <string name="chill_fragment_loc_name06">Tropicarium </string>
+
+    <!-- Chill fragment location addresses -->
+    <string name="chill_fragment_loc_address01">25&#8211;29 Frankel Leo ut, 1023</string>
+    <string name="chill_fragment_loc_address02">4 Kelenhegyi ut, 1118</string>
+    <string name="chill_fragment_loc_address03">9&#8211;11 Allatkerti korut, 1146</string>
+    <string name="chill_fragment_loc_address04">12a Allatkerti korut, 1146</string>
+    <string name="chill_fragment_loc_address05">6&#8211;12 Allatkerti korut, 1146</string>
+    <string name="chill_fragment_loc_address06">37&#8211;43 Nagytetenyi ut, 1222</string>
+
+    <!-- Libraries fragment -->
+
+    <!-- Libraries fragment location names -->
+    <string name="libraries_fragment_loc_name01">National Szechenyi Library</string>
+    <string name="libraries_fragment_loc_name02">Metropolitan Ervin Szabo Library</string>
+    <string name="libraries_fragment_loc_name03">National Library of Foreign Literature</string>
+    <string name="libraries_fragment_loc_name04">University Library of ELTE</string>
+    <string name="libraries_fragment_loc_name05">The Japan Foundation Budapest</string>
+    <string name="libraries_fragment_loc_name06">French Institution of Budapest</string>
+
+    <!-- Libraries fragment location addresses -->
+    <string name="libraries_fragment_loc_address01">Budavari Palota, 4&#8211;6 Szt Gyorgy ter, 1014</string>
+    <string name="libraries_fragment_loc_address02">1 Szabo Ervin ter, 1014</string>
+    <string name="libraries_fragment_loc_address03">11 Molnar utca, 1056</string>
+    <string name="libraries_fragment_loc_address04">6 Ferenciek tere, 1053</string>
+    <string name="libraries_fragment_loc_address05">8 Aradi utca, 1062</string>
+    <string name="libraries_fragment_loc_address06">17 Fo utca, 1011</string>
+
+    <!-- Castles fragment -->
+
+    <!-- Castles fragment location names -->
+    <string name="castles_fragment_loc_name01">Royal Palace of Godollo</string>
+    <string name="castles_fragment_loc_name02">Budavar Palace</string>
+    <string name="castles_fragment_loc_name03">Vajdahunyad Castle</string>
+
+    <!-- Libraries fragment location addresses -->
+    <string name="castles_fragment_loc_address01">5852 Grassalkovich-kastely, Godollo 2100 </string>
+    <string name="castles_fragment_loc_address02">2 Szent Gyorgy ter, Budapest 1014</string>
+    <string name="castles_fragment_loc_address03">Vajdahunyad var, Budapest 1146</string>
+
+    <!-- Eateries fragment -->
+
+    <!-- Eateries fragment location names -->
+    <string name="eateries_fragment_loc_name01">Ramenka</string>
+    <string name="eateries_fragment_loc_name02">Takebayashi Restaurant</string>
+    <string name="eateries_fragment_loc_name03">Don Doko Don Japan Bistro</string>
+    <string name="eateries_fragment_loc_name04">Komachi Japan Bisztro</string>
+    <string name="eateries_fragment_loc_name05">Hung(a)ry?</string>
+    <string name="eateries_fragment_loc_name06">Bamba Marha Burger Bar</string>
+    <string name="eateries_fragment_loc_name07">Central European University Canteen</string>
+    <string name="eateries_fragment_loc_name08">Nagy Levin Restaurant</string>
+    <string name="eateries_fragment_loc_name09">Becsiszelet Restaurant</string>
+
+    <!-- Eateries fragment location addresses -->
+    <string name="eateries_fragment_loc_address01">9 Kazinczy utca, 1075</string>
+    <string name="eateries_fragment_loc_address02">18 Belgrad rakpart, 1052</string>
+    <string name="eateries_fragment_loc_address03">2&#8211;4 Ulloi ut, 1085</string>
+    <string name="eateries_fragment_loc_address04">33 Kertesz utca, 1073</string>
+    <string name="eateries_fragment_loc_address05">5 Oktober 6, utca, 1051</string>
+    <string name="eateries_fragment_loc_address06">46 Andrassy út, 1062</string>
+    <string name="eateries_fragment_loc_address07">15 Nador utca, floor 2, 1051 </string>
+    <string name="eateries_fragment_loc_address08">200 II. Rakoczi Ferenc ut, 1214</string>
+    <string name="eateries_fragment_loc_address09">63 Jozsef korut, 1085</string>
+
+    <!-- LONGER TEXTS: LOCATION DESCRIPTIONS -->
+
+    <!-- Chill fragment location description -->
+    <string name="chill_fragment_loc_description01">Lukacs Thermal Bath</string>
+    <string name="chill_fragment_loc_description02">Gellert Thermal Baths </string>
+    <string name="chill_fragment_loc_description03">Szechenyi Medicinal Bath</string>
+    <string name="chill_fragment_loc_description04">
+Artists performing here are celebrated \n
+        across Europe,
+    </string>
+    <string name="chill_fragment_loc_description05">Budapest Zoo &amp; Botanical Garden
+</string>
+    <string name="chill_fragment_loc_description06">Tropicarium </string>
+
+    <!-- Libraries fragment location description -->
+    <string name="libraries_fragment_loc_description01">
+        Not many libraries can claim that \n
+        they live in a UNESCO World Heritage Site, \n
+        so this one will blow your mind. \n
+        Situated in the mostly Barque Buda Castle, \n
+        the library gives off a classy and elegant vibe.
+
+    </string>
+    <string name="libraries_fragment_loc_description02">Metropolitan Ervin Szabo Library</string>
+    <string name="libraries_fragment_loc_description03">
+        Classy and comfy at the same time, \n
+    this place will feel welcoming and \n
+        its architecture is impressive too! \n
+        You can also purchase used books here. \n
+        Watch out for the Hungarian chess and \n
+        go players at its reception hall!
+    </string>
+    <string name="libraries_fragment_loc_description04">
+        Yet another classy historical \n
+        building, this is Europe after all. \n
+        Situated near the city centre \n
+        and one of Eotvos Lorand University\'s \n
+        legendary campuses, it\'s \n
+        definitely worth a look.
+
+    </string>
+    <string name="libraries_fragment_loc_description05">
+        Situated at a small business centre, \n
+        its home building will impress you less, \n
+        but the quiet, Japanese-speaking staff \n
+        &amp; their unique collection of \n
+        textbooks, manga, journals &amp; novels \n
+        definitely will.
+
+    </string>
+    <string name="libraries_fragment_loc_description06">
+        A walk by the river side \n
+    near this building will already \n
+    give you a good excuse to check it out, \n
+    not to mention its unique little French shop \n
+        and a book store selling exclusively \n
+        French books on the ground floor \n
+        of the building.
+    </string>
+
+    <!-- Castles fragment location description -->
+    <string name="castles_fragment_loc_description01">
+        Not exactly in Budapest, \n
+        but only a few minutes drive away; \n
+        if you\'re only going to see \n
+        one castle in Hungary, \n
+        this better be the one. \n
+        Join a castle tour, \n
+        and visit the garden as well!
+    </string>
+    <string name="castles_fragment_loc_description02">
+        The majority of the building \n
+        was built in Baroque style, \n
+        and is now home to several \n
+        cultural units (museums and libraries).
+    </string>
+    <string name="castles_fragment_loc_description03">
+        Situated on the side of a lake, \n
+    this one gives off a calming vibe. \n
+    If you can\'t pick a style you love, \n
+    no worries, as this castle has features \n
+        of the Romanesque, Gothic, Renaissance,
+        \n and Baroque too!</string>
+
+    <!-- Eateries fragment location description -->
+    <string name="eateries_fragment_loc_description01">Ramenka</string>
+    <string name="eateries_fragment_loc_description02">Takebayashi Restaurant</string>
+    <string name="eateries_fragment_loc_description03">Don Doko Don Japan Bistro</string>
+    <string name="eateries_fragment_loc_description04">Komachi Japan Bisztro</string>
+    <string name="eateries_fragment_loc_description05">Hung(a)ry?</string>
+    <string name="eateries_fragment_loc_description06">Bamba Marha Burger Bar</string>
+    <string name="eateries_fragment_loc_description07">Central European University Canteen</string>
+    <string name="eateries_fragment_loc_description08">Nagy Levin Restaurant</string>
+    <string name="eateries_fragment_loc_description09">Becsiszelet Restaurant</string>
+
+
+</resources>
