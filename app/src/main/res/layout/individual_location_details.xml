@@ -62,10 +62,12 @@
     <Button
         android:id="@+id/button_return_to_menu"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
         android:layout_below="@id/location_description"
-        android:paddingTop="@dimen/list_item_half_height"
-        android:paddingBottom="@dimen/list_item_height"
+        android:paddingTop="@dimen/return_button_padding"
+        android:paddingBottom="@dimen/return_button_padding"
         android:text="@string/button_return_to_menu"
         android:textColor="@color/button_color_orange"
         android:textAppearance="?android:textAppearanceSmall"/>
