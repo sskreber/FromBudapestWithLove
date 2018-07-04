@@ -26,6 +26,7 @@
 
         <TextView
             android:id="@+id/location_name"
+            android:background="?android:attr/selectableItemBackground"
             android:layout_width="match_parent"
             android:layout_height="@dimen/layout_height"
             android:gravity="bottom"
@@ -36,6 +37,7 @@
 
         <TextView
             android:id="@+id/location_address"
+            android:background="?android:attr/selectableItemBackground"
             android:layout_width="match_parent"
             android:layout_height="@dimen/layout_height"
             android:layout_below="@id/location_name"

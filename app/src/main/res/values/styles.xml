@@ -23,11 +23,9 @@
     </style>
 
     <style name="IndividualLocationDescriptionFont" parent="IndividualLocationDetails">
-        <item name="android:textSize">20sp</item>
-        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
-
 
 </resources>
 

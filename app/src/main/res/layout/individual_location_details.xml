@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/scrollview_layout"
+    android:paddingTop="@dimen/list_item_half_height"
+    android:paddingBottom="@dimen/list_item_half_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/individual_location_container"
@@ -7,12 +14,15 @@
     android:layout_alignParentEnd="true"
     android:layout_alignParentRight="true"
     android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
     android:background="@color/color_background"
     android:minHeight="@dimen/list_item_height">
 
     <TextView
         android:id="@+id/location_name"
+        android:paddingTop="@dimen/list_item_half_height"
+        android:layout_centerHorizontal="true"
         style="@style/IndividualLocationDetails"
         android:gravity="center_vertical"
         android:textAppearance="?android:textAppearanceMedium"
@@ -21,6 +31,8 @@
 
     <TextView
         android:id="@+id/location_address"
+        android:paddingTop="@dimen/list_item_half_height"
+        android:layout_centerHorizontal="true"
         style="@style/IndividualLocationDetails"
         android:layout_below="@id/location_name"
         android:gravity="top"
@@ -30,17 +42,34 @@
 
     <ImageView
         android:id="@+id/location_image"
+        android:paddingTop="@dimen/list_item_half_height"
         style="@style/IndividualLocationDetails"
         android:layout_height="wrap_content"
         android:layout_below="@id/location_address" />
 
     <TextView
         android:id="@+id/location_description"
+        android:foregroundGravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/list_item_half_height"
+        android:paddingBottom="@dimen/list_item_half_height"
         style="@style/IndividualLocationDescriptionFont"
         android:layout_below="@id/location_image"
         android:gravity="top"
         android:textAppearance="?android:textAppearanceSmall"
         tools:text="location rather long description" />
 
+    <Button
+        android:id="@+id/button_return_to_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@id/location_description"
+        android:paddingTop="@dimen/list_item_half_height"
+        android:paddingBottom="@dimen/list_item_height"
+        android:text="@string/button_return_to_menu"
+        android:textColor="@color/button_color_orange"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
 </RelativeLayout>
 
+</ScrollView>

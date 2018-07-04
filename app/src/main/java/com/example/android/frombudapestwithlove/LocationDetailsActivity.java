@@ -1,10 +1,13 @@
 package com.example.android.frombudapestwithlove;
 
+import android.content.Intent;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,6 +30,8 @@ public class LocationDetailsActivity extends AppCompatActivity {
 
             View activityLayout = findViewById(R.id.individual_location_container);
             activityLayout.setBackgroundColor(fragmentBackgroundColorId);
+            View scrollviewLayout = findViewById(R.id.scrollview_layout);
+            scrollviewLayout.setBackgroundColor(fragmentBackgroundColorId);
 
             TextView currentLocationNameView = findViewById(R.id.location_name);
             currentLocationNameView.setText(currentLocationName);
@@ -34,6 +39,7 @@ public class LocationDetailsActivity extends AppCompatActivity {
             currentLocationAddressView.setText(currentLocationAddress);
             TextView currentLocationDescriptionView = findViewById(R.id.location_description);
             currentLocationDescriptionView.setText(currentLocationDescription);
+//            currentLocationDescriptionView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             ImageView currentLocationImageView = (ImageView) findViewById((R.id.location_image));
             if (currentLocationImage != NO_PHOTO_AVAILABLE) {
@@ -44,6 +50,14 @@ public class LocationDetailsActivity extends AppCompatActivity {
             }
         }
 
-
+        // Hooking up the return to menu button to get user back to main activity from currently played song
+        Button returnToMenuButton = (Button) findViewById(R.id.button_return_to_menu);
+        returnToMenuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent returnToMainActivity = new Intent(LocationDetailsActivity.this, MainActivity.class);
+                startActivity(returnToMainActivity);
+            }
+        });
     }
 }
