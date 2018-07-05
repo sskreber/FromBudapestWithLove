@@ -29,17 +29,17 @@ public class LibrariesFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getResources().getString(R.string.libraries_fragment_loc_name01),
-                getResources().getString(R.string. libraries_fragment_loc_address01), R.drawable.libraries_national_szechenyi_library_small, R.drawable.libraries_national_szechenyi_library, getResources().getString(R.string.libraries_fragment_loc_description01)));
+                getResources().getString(R.string.libraries_fragment_loc_address01), R.drawable.libraries_national_szechenyi_library_small, R.drawable.libraries_national_szechenyi_library, getResources().getString(R.string.libraries_fragment_loc_description01)));
         locations.add(new Location(getResources().getString(R.string.libraries_fragment_loc_name02),
-                getResources().getString(R.string. libraries_fragment_loc_address02), R.drawable.libraries_metropolitan_ervin_szabo_library_small, R.drawable.libraries_metropolitan_ervin_szabo_library,getResources().getString(R.string.libraries_fragment_loc_description02)));
+                getResources().getString(R.string.libraries_fragment_loc_address02), R.drawable.libraries_metropolitan_ervin_szabo_library_small, R.drawable.libraries_metropolitan_ervin_szabo_library, getResources().getString(R.string.libraries_fragment_loc_description02)));
         locations.add(new Location(getResources().getString(R.string.libraries_fragment_loc_name03),
-                getResources().getString(R.string. libraries_fragment_loc_address03), R.drawable.libraries_national_library_of_foreign_literature_small, R.drawable.libraries_national_library_of_foreign_literature,getResources().getString(R.string.libraries_fragment_loc_description03)));
+                getResources().getString(R.string.libraries_fragment_loc_address03), R.drawable.libraries_national_library_of_foreign_literature_small, R.drawable.libraries_national_library_of_foreign_literature, getResources().getString(R.string.libraries_fragment_loc_description03)));
         locations.add(new Location(getResources().getString(R.string.libraries_fragment_loc_name04),
-                getResources().getString(R.string. libraries_fragment_loc_address04), R.drawable.libraries_university_library_small, R.drawable.libraries_university_library,getResources().getString(R.string.libraries_fragment_loc_description04)));
+                getResources().getString(R.string.libraries_fragment_loc_address04), R.drawable.libraries_university_library_small, R.drawable.libraries_university_library, getResources().getString(R.string.libraries_fragment_loc_description04)));
         locations.add(new Location(getResources().getString(R.string.libraries_fragment_loc_name05),
-                getResources().getString(R.string. libraries_fragment_loc_address05), R.drawable.libraries_the_japan_foundation_small, R.drawable.libraries_the_japan_foundation,getResources().getString(R.string.libraries_fragment_loc_description05)));
+                getResources().getString(R.string.libraries_fragment_loc_address05), R.drawable.libraries_the_japan_foundation_small, R.drawable.libraries_the_japan_foundation, getResources().getString(R.string.libraries_fragment_loc_description05)));
         locations.add(new Location(getResources().getString(R.string.libraries_fragment_loc_name06),
-                getResources().getString(R.string. libraries_fragment_loc_address06), R.drawable.libraries_institut_francais_de_budapest_small, R.drawable.libraries_institut_francais_de_budapest,getResources().getString(R.string.libraries_fragment_loc_description06)));
+                getResources().getString(R.string.libraries_fragment_loc_address06), R.drawable.libraries_institut_francais_de_budapest_small, R.drawable.libraries_institut_francais_de_budapest, getResources().getString(R.string.libraries_fragment_loc_description06)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.fragment_libraries);
 

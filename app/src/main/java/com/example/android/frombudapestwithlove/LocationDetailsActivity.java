@@ -1,11 +1,8 @@
 package com.example.android.frombudapestwithlove;
 
 import android.content.Intent;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Layout;
-import android.view.LayoutInflater;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -39,7 +36,6 @@ public class LocationDetailsActivity extends AppCompatActivity {
             currentLocationAddressView.setText(currentLocationAddress);
             TextView currentLocationDescriptionView = findViewById(R.id.location_description);
             currentLocationDescriptionView.setText(currentLocationDescription);
-//            currentLocationDescriptionView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             ImageView currentLocationImageView = (ImageView) findViewById((R.id.location_image));
             if (currentLocationImage != NO_PHOTO_AVAILABLE) {

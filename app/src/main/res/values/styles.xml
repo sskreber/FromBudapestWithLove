@@ -23,8 +23,10 @@
     </style>
 
     <style name="IndividualLocationDescriptionFont" parent="IndividualLocationDetails">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">@dimen/location_description_size</item>
         <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingLeft">@dimen/list_item_margin_big</item>
+        <item name="android:paddingRight">@dimen/list_item_margin_big</item>
     </style>
 
 </resources>

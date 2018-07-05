@@ -30,23 +30,23 @@ public class EateriesFragment extends Fragment {
 
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name01),
-                getResources().getString(R.string. eateries_fragment_loc_address01),getResources().getString(R.string.eateries_fragment_loc_description01)));
+                getResources().getString(R.string.eateries_fragment_loc_address01), getResources().getString(R.string.eateries_fragment_loc_description01)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name02),
-                getResources().getString(R.string. eateries_fragment_loc_address02), getResources().getString(R.string.eateries_fragment_loc_description02)));
+                getResources().getString(R.string.eateries_fragment_loc_address02), getResources().getString(R.string.eateries_fragment_loc_description02)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name03),
-                getResources().getString(R.string. eateries_fragment_loc_address03),getResources().getString(R.string.eateries_fragment_loc_description03)));
+                getResources().getString(R.string.eateries_fragment_loc_address03), getResources().getString(R.string.eateries_fragment_loc_description03)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name04),
-                getResources().getString(R.string. eateries_fragment_loc_address04), getResources().getString(R.string.eateries_fragment_loc_description04)));
+                getResources().getString(R.string.eateries_fragment_loc_address04), getResources().getString(R.string.eateries_fragment_loc_description04)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name05),
-                getResources().getString(R.string. eateries_fragment_loc_address05), getResources().getString(R.string.eateries_fragment_loc_description05)));
+                getResources().getString(R.string.eateries_fragment_loc_address05), getResources().getString(R.string.eateries_fragment_loc_description05)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name06),
-                getResources().getString(R.string. eateries_fragment_loc_address06), getResources().getString(R.string.eateries_fragment_loc_description06)));
+                getResources().getString(R.string.eateries_fragment_loc_address06), getResources().getString(R.string.eateries_fragment_loc_description06)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name07),
-                getResources().getString(R.string. eateries_fragment_loc_address07),getResources().getString(R.string.eateries_fragment_loc_description07)));
+                getResources().getString(R.string.eateries_fragment_loc_address07), getResources().getString(R.string.eateries_fragment_loc_description07)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name08),
-                getResources().getString(R.string. eateries_fragment_loc_address08), getResources().getString(R.string.eateries_fragment_loc_description08)));
+                getResources().getString(R.string.eateries_fragment_loc_address08), getResources().getString(R.string.eateries_fragment_loc_description08)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name09),
-                getResources().getString(R.string. eateries_fragment_loc_address09), getResources().getString(R.string.eateries_fragment_loc_description09)));
+                getResources().getString(R.string.eateries_fragment_loc_address09), getResources().getString(R.string.eateries_fragment_loc_description09)));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.fragment_eateries);
 

@@ -1,8 +1,5 @@
 package com.example.android.frombudapestwithlove;
 
-import android.view.LayoutInflater;
-
-
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
@@ -10,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -54,12 +50,11 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         }
 
         View textContainer = listItemView.findViewById(R.id.text_container);
-        // Find the given fragment background colour
+        // Find the given fragment's background colour
         int fragmentBackgroundColor = ContextCompat.getColor(getContext(), colorResourceId);
-        // Set layout's  background color to that fragment colour
+        // Set layout's  background color to fragment's colour
         textContainer.setBackgroundColor(fragmentBackgroundColor);
 
         return listItemView;
     }
 }
-

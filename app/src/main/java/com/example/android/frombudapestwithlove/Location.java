@@ -17,13 +17,6 @@ public class Location {
         this.description = description;
     }
 
-    public Location(String name, String address, int locationImageId, String description) {
-        this.name = name;
-        this.address = address;
-        this.locationImageId = locationImageId;
-        this.description = description;
-    }
-
     public Location(String name, String address, int locationImageId, int locationHugeImageId, String description) {
         this.name = name;
         this.address = address;

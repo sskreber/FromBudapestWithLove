@@ -11,6 +11,7 @@
     <color name="color_image_background">#FF9800</color>
     <color name="button_color_orange">#EF6C00</color>
 
+    <!-- Fragment background colours -->
     <color name="fragment_chill">#FFC107</color>
     <color name="fragment_libraries">#FFCC80</color>
     <color name="fragment_castles">#FFDF80</color>

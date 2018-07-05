@@ -22,7 +22,6 @@
     <TextView
         android:id="@+id/location_name"
         android:paddingTop="@dimen/list_item_half_height"
-        android:layout_centerHorizontal="true"
         style="@style/IndividualLocationDetails"
         android:gravity="center_vertical"
         android:textAppearance="?android:textAppearanceMedium"
@@ -32,7 +31,6 @@
     <TextView
         android:id="@+id/location_address"
         android:paddingTop="@dimen/list_item_half_height"
-        android:layout_centerHorizontal="true"
         style="@style/IndividualLocationDetails"
         android:layout_below="@id/location_name"
         android:gravity="top"
@@ -49,8 +47,6 @@
 
     <TextView
         android:id="@+id/location_description"
-        android:foregroundGravity="center_horizontal"
-        android:layout_centerHorizontal="true"
         android:paddingTop="@dimen/list_item_half_height"
         android:paddingBottom="@dimen/list_item_half_height"
         style="@style/IndividualLocationDescriptionFont"
