@@ -34,7 +34,7 @@ public class EateriesFragment extends Fragment {
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name02),
                 getResources().getString(R.string. eateries_fragment_loc_address02), getResources().getString(R.string.eateries_fragment_loc_description02)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name03),
-                getResources().getString(R.string. eateries_fragment_loc_address03),getResources().getString(R.string.eateries_fragment_loc_description02)));
+                getResources().getString(R.string. eateries_fragment_loc_address03),getResources().getString(R.string.eateries_fragment_loc_description03)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name04),
                 getResources().getString(R.string. eateries_fragment_loc_address04), getResources().getString(R.string.eateries_fragment_loc_description04)));
         locations.add(new Location(getResources().getString(R.string.eateries_fragment_loc_name05),
