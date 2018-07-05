@@ -41,4 +41,3 @@ public class CategoryFragmentPagerAdapter extends FragmentPagerAdapter {
         return tabTitles[position];
     }
 }
-
